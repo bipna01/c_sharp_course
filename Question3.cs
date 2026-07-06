@@ -1,13 +1,18 @@
-//Declare three variables for Physics, Chemistry, and Mathematics marks, then calculate the total.
+
+
+using System.Numerics;
 
 public class Question3
 {
-    public void Calculate
+    public void Calculate()
     {
-        int Chemistry;
-    int Physics;
-    int Mathematics;
+        int chemistry =55;
+    int physics=45;
+    int mathematics=35;
     
-    Physics = 
+     int total;
+      total=  chemistry + physics + mathematics;
+
+      Console.WriteLine($" the total marks of all subject is {total}");
     }
   }
