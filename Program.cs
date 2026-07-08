@@ -26,6 +26,12 @@ class Program {
         Question8 question8 = new Question8();
         question8.SI();
 
+        Question9 question9 = new Question9();
+        question9.Average();
+
+        Question10 question10 = new Question10();
+        question10.Convert();
+
     }
 }
 

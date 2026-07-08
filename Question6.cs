@@ -8,7 +8,7 @@ public class Question6
         int b = 3;
            
            Console.WriteLine($" The value of a and b before swapping {a} and {b}");
-          a=b=a;
+          
           b=a;
           a=b;
 
