@@ -7,7 +7,7 @@ public class Question7
         int length = 10;
         int breadth = 15;
         int perimeter;
-        Console.WriteLine($"tje leangth and breadth of rectangle are {length} , {breadth}");
+        Console.WriteLine($"the leangth and breadth of rectangle are {length} , {breadth}");
          perimeter = length * breadth ;
          Console.WriteLine($"the perimeter of rectangle is {perimeter}");
     }

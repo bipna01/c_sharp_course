@@ -32,6 +32,18 @@ class Program {
         Question10 question10 = new Question10();
         question10.Convert();
 
+        Question11 question11 = new Question11();
+        question11.Bill();
+
+        Question12 question12 = new Question12();
+        question12.Employee();
+
+        Question13 question13 = new Question13();
+        question13.Student();
+
+        Question14 question14 = new Question14();
+        question14.CompoundInterest();
+
     }
 }
 

@@ -2,13 +2,14 @@
 
 public class Question12
 {
-    publiv void Employee()
+    public void Employee()
     {
-        string name = " shyam "
-        double salary = 50000;
-        double bonus = 5;
-        double tax = 2;
+        string name = " shyam ";
+        double salary = 500000;
+        double bonus = 500;
+        double tax = 2000;
         double NetSalary;
-         NetSalary = salary
+         NetSalary = salary-tax+bonus;
+         Console.WriteLine($"the name of employee is {name} and his netsalary is{NetSalary}");
     }
 }
