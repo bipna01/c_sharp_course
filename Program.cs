@@ -4,7 +4,8 @@ class Program {
     {
         Console.WriteLine("hello world");
         
-        Question2 question2 = new Question2();
+        /*
+        \Question2 question2 = new Question2();
         question2.Sum(1,2);
          
          Question3 question3 = new Question3();
@@ -40,9 +41,38 @@ class Program {
 
         Question13 question13 = new Question13();
         question13.Student();
+        
 
-        Question14 question14 = new Question14();
-        question14.CompoundInterest();
+       // Question14 question14 = new Question14();
+       // question14.CompoundInterest();
+
+       PositiveNZ positiveNZ = new  PositiveNZ();
+       positiveNZ.Check();
+       
+
+       OddOrEven oddOrEven = new OddOrEven();
+       oddOrEven.check();
+       
+
+
+
+       LargeNo largeNo = new  LargeNo();
+       largeNo.Number();
+
+       SmallestNo smallestNo = new SmallestNo();
+       smallestNo.Number();
+       
+
+       Vote  vote = new Vote();
+       vote.Age();
+
+       
+       Question14 question14 = new Question14();
+       question14.DivisibleBy5();
+       */
+
+       Question15 question15 = new Question15();
+       question15.DivisibleBy11Or5();
 
     }
 }
