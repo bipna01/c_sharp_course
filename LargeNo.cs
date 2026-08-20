@@ -1,4 +1,4 @@
-//Input two integers and display the larger one.
+    //Input two integers and display the larger one.
 
 
 public class LargeNo

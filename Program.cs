@@ -69,10 +69,18 @@ class Program {
        
        Question14 question14 = new Question14();
        question14.DivisibleBy5();
-       */
+       
 
        Question15 question15 = new Question15();
        question15.DivisibleBy11Or5();
+       
+       Employee employee = new Employee();
+       employee.Salary();
+       
+        Result result = new Result();
+        result.Grade();*/
+        OldQn oldQn =new OldQn();
+        oldQn.Result();
 
     }
 }
