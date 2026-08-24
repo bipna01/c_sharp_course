@@ -78,9 +78,18 @@ class Program {
        employee.Salary();
        
         Result result = new Result();
-        result.Grade();*/
+        result.Grade();
+
+
         OldQn oldQn =new OldQn();
         oldQn.Result();
+        
+
+        Question17 question17 = new Question17();
+        question17.DisplayStudent();*/
+
+        Question18 question18 =new Question18();
+        question18.MultiplicationTable();
 
     }
 }
