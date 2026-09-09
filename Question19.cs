@@ -3,8 +3,8 @@ Create a function `GetWelcomeMessage()` with **no arguments but with a return ty
 */
 public class Question19
 {
-    public char GetWelcomeMessage()
+    public string GetWelcomeMessage()
     {
-        return
+        return  " welcome";
     }
 }

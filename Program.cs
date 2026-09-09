@@ -86,10 +86,34 @@ class Program {
         
 
         Question17 question17 = new Question17();
-        question17.DisplayStudent();*/
+        question17.DisplayStudent();
 
         Question18 question18 =new Question18();
         question18.MultiplicationTable();
+        
+
+        Question19 question19 = new Question19();
+        question19.GetWelcomeMessage();
+
+        Question20 question20 = new Question20();
+        question20.CalculateSum(3 , 4);
+
+        Console.WriteLine($"the sum of a and b is {}");
+        
+        Array1 array1 = new Array1();
+        array1.OneD();
+
+        Array2 array2 = new Array2();
+        array2.TwoD();
+
+        Array3 array3 = new Array3();
+        array3.displayArray3();
+        */
+
+        Array4 array4 = new Array4();
+        array4.displayArray4();
+
+
 
     }
 }
