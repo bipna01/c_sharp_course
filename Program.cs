@@ -108,10 +108,14 @@ class Program {
 
         Array3 array3 = new Array3();
         array3.displayArray3();
-        */
+        
 
         Array4 array4 = new Array4();
         array4.displayArray4();
+        */
+
+        Array5 array5=new Array5();
+        array5.display2d();
 
 
 
