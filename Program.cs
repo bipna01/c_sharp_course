@@ -112,10 +112,16 @@ class Program {
 
         Array4 array4 = new Array4();
         array4.displayArray4();
-        */
+        
 
         Array5 array5=new Array5();
         array5.display2d();
+
+        Array6 array6 =new Array6();
+        array6.Stringarray();*/
+
+        Array7 array7=new Array7();
+        array7.ThreeD();
 
 
 
