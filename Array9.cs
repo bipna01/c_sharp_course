@@ -1,6 +1,6 @@
-public class Array5
+public class Array9
 {
-    public  void display2d()
+    public void Doublearray()
     {
         Console.WriteLine($"Enter the number of row");
         int row =int.Parse(Console.ReadLine());
@@ -8,20 +8,18 @@ public class Array5
         Console.WriteLine($"Enter the number of column");
         int column=int.Parse(Console.ReadLine());
 
-        int[,] numbers= new int [row ,column];
-
-        Console.WriteLine("Enter the elements of array");
+        double[,] numbers = new double[row,column];
+         Console.WriteLine("Enter the elements of array");
         for(int i =0;i<numbers.GetLength(0); i++)
         {
             for(int j=0;j< numbers.GetLength(1); j++)
             {
-                numbers [i,j]= Convert.ToInt32(Console.ReadLine());
-             
+                numbers [i,j]= Convert.ToDouble(Console.ReadLine());
+                
             }
             
-        }
-
-        for (int i = 0; i < numbers.GetLength(0); i++)
+        }     
+         for (int i = 0; i < numbers.GetLength(0); i++)
         {
             for (int j = 0; j < numbers.GetLength(1); j++)
             {
@@ -30,6 +28,7 @@ public class Array5
 
             Console.WriteLine();
         }
+
 
     }
 }

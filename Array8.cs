@@ -1,4 +1,4 @@
-public class Array{
+public class Array8{
     public void StringThreed()
     {
          Console.WriteLine($"Enter the number of depth");
@@ -15,10 +15,24 @@ public class Array{
         Console.WriteLine($"Enter the elements of arrray");
         for(int x=0;x<num.GetLength(0);x++)
         {
-            for(int y = 0; x < num.GetLength(0); y++)
+            for(int y = 0; x < num.GetLength(1); y++)
             {
-                
+                for(int z = 0; x < num.GetLength(2); z++)
+                {
+                    
+                }
             }
+        }
+          for (int x = 0; x < num.GetLength(0); x++)
+        {
+            for (int y= 0; y < num.GetLength(1); y++)
+            {
+                for(int z =0; z<num.GetLength(2); z++){
+                Console.Write(num[x,y,z] + " ");
+            }
+            }
+
+            Console.WriteLine();
         }
 
 

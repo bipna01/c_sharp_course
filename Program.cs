@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Runtime.CompilerServices;
 class Program {
     public static void Main(string[] args)
     {
@@ -118,10 +119,26 @@ class Program {
         array5.display2d();
 
         Array6 array6 =new Array6();
-        array6.Stringarray();*/
+        array6.Stringarray(); 
 
         Array7 array7=new Array7();
         array7.ThreeD();
+
+        Array8  array8=new Array8();
+        array8.StringThreed();
+
+        Array9 array9=new Array9();
+        array9.Doublearray();
+
+        Array10 array10 =new Array10();
+        array10.JaggedOneD();
+
+        Jagged2D jagged2D =new Jagged2D();
+        jagged2D.TwoD();*/
+
+        Jagged3D jagged3D =new Jagged3D();
+        jagged3D.ThreeD();
+        
 
 
 

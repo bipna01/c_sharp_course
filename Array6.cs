@@ -15,10 +15,19 @@ public class Array6
             for(int j=0;j< numbers.GetLength(1); j++)
             {
                 numbers [i,j]=Console.ReadLine();
-                Console.Write(numbers[i, j] + " ");  
+               
             }
-             Console.WriteLine("");
+             
         }     
+        for (int i = 0; i < numbers.GetLength(0); i++)
+        {
+            for (int j = 0; j < numbers.GetLength(1); j++)
+            {
+                Console.Write(numbers[i, j] + " ");
+            }
+
+            Console.WriteLine();
+        }
 
     }
 }

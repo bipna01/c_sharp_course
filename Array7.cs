@@ -36,7 +36,7 @@ public class Array7
             {
                 for(int z = 0; z < numbers.GetLength(2); z++)
                 {
-                    Console.WriteLine();
+                    Console.Write(numbers[x,y,z] + " ");
                 }
             }
             Console.WriteLine();
